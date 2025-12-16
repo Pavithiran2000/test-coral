@@ -1,0 +1,201 @@
+[
+  {
+    "id": "coral-mansion",
+    "name": "Coral Mansion",
+    "image": "/CompletedProjects/Completed1.jpg",
+    "address": "37, Days Road, Wellawatta",
+    "heroImage": "/CompletedProjects/Completed1.jpg",
+    "mapAddress": "37, Days Road, Wellawatta",
+    "lead": [
+      "Coral Mansion is a premium residential development located at 37, Days Road, Wellawatta, offering comfortable city living.",
+      "Designed with practical layouts and quality finishes, it provides a balanced lifestyle in a well-connected neighbourhood."
+    ],
+    "features": [
+      "Modern apartment layouts with efficient use of space",
+      "Close proximity to main roads, schools and amenities"
+    ],
+    "gallery": [
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg",
+      "/Projects/Project3.jpg",
+      "/Projects/Project4.jpg",
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg"
+    ]
+  },
+  {
+    "id": "coral-villa",
+    "name": "Coral Villa",
+    "image": "/CompletedProjects/Completed2.jpg",
+    "address": "08A, Hameem Place, Colombo 06",
+    "heroImage": "/CompletedProjects/Completed2.jpg",
+    "mapAddress": "08A, Harmers’ Place, Colombo 06",
+    "lead": [
+      "Coral Villa is an ultra-modern, multi-storey luxury apartment complex located at 8A, Harmers’ Place, Wellawatte, Colombo 06. Designed for comfort and elegance, this 3-bedroom residence offers serene sea views, tropical aesthetics, and an intimate living experience in Sri Lanka’s vibrant cityscape.",
+      "Every corner at Coral Villa reflects quality craftsmanship and thoughtful design from its breezy layouts that balance lighting, ventilation, and privacy, to private balconies and rooftop escarpments that evoke tranquility and space.",
+      "Residents also benefit from practical features like standby generators, high-speed elevators, 24-hour security, waterproofing, intercom systems, and secure parking. With unbeatable value and everyday elegance, Coral Villa invites you to a life of exclusivity and ease."
+    ],
+    "features": [
+      "Optimal balance in lighting, ventilation and privacy",
+      "Top quality materials and luxury finishes",
+      "Standby generators for common areas lighting, elevators, water and fire pumps",
+      "Individual communication facility from apartments to reception office and among apartments and intercom facility",
+      "Ample parking facility with all safety protocols",
+      "Bathrooms, roof top balconies, yards and external walls are fully water proof",
+      "High speed elevator up to roof top",
+      "Modern fire protection designed in conformity with municipal regulations",
+      "Lightening arrester mechanism",
+      "24 hours security service",
+      "Exhilarating sea view point at roof top",
+      "Full secured eight feet parapet wall right around",
+      "Private individual balconies for living and all bedrooms",
+      "Garbage storage area in ground floor"
+    ],
+    "gallery": [
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg",
+      "/Projects/Project3.jpg",
+      "/Projects/Project4.jpg",
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg"
+    ]
+  },
+  {
+    "id": "coral-castle",
+    "name": "Coral Castle",
+    "image": "/CompletedProjects/Completed3.jpg",
+    "address": "75, Nawala, Colombo 05",
+    "heroImage": "/CompletedProjects/Completed3.jpg",
+    "mapAddress": "75, Nawala, Colombo 05",
+    "lead": [
+      "Coral Castle is a contemporary apartment project located in Nawala, Colombo 05, designed for residents who value both comfort and convenience."
+    ],
+    "features": [
+      "Contemporary architecture with practical layouts",
+      "Located in a peaceful yet highly accessible neighbourhood"
+    ],
+    "gallery": [
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg",
+      "/Projects/Project3.jpg",
+      "/Projects/Project4.jpg",
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg"
+    ]
+  },
+  {
+    "id": "coral-waves",
+    "name": "Coral Waves Residencies",
+    "image": "/CompletedProjects/Completed4.jpg",
+    "address": "Marine Drive, Bambalapitiya",
+    "heroImage": "/CompletedProjects/Completed4.jpg",
+    "mapAddress": "Marine Drive, Bambalapitiya",
+    "lead": [
+      "Coral Waves Residencies is a sea-facing development along Marine Drive, offering residents stunning ocean views and breezy living."
+    ],
+    "features": [
+      "Direct frontage to Marine Drive with sea views",
+      "Ideal for both living and investment"
+    ],
+    "gallery": [
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg",
+      "/Projects/Project3.jpg",
+      "/Projects/Project4.jpg",
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg"
+    ]
+  },
+  {
+    "id": "coral-king-court",
+    "name": "Coral King Court",
+    "image": "/CompletedProjects/Completed5.jpg",
+    "address": "Old Kottawa Rd., Colombo 05",
+    "heroImage": "/CompletedProjects/Completed5.jpg",
+    "mapAddress": "Old Kottawa Rd., Colombo 05",
+    "lead": [
+      "Coral King Court is thoughtfully positioned along Old Kottawa Road, combining modern apartments with everyday convenience."
+    ],
+    "features": [
+      "Easy access to main transport routes",
+      "Apartments designed for functional family living"
+    ],
+    "gallery": [
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg",
+      "/Projects/Project3.jpg",
+      "/Projects/Project4.jpg",
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg"
+    ]
+  },
+  {
+    "id": "coral-residence",
+    "name": "Coral Residence",
+    "image": "/CompletedProjects/Completed6.jpg",
+    "address": "29, Thimbirigasyaya, Colombo 05",
+    "heroImage": "/CompletedProjects/Completed6.jpg",
+    "mapAddress": "29, Thimbirigasyaya, Colombo 05",
+    "lead": [
+      "Coral Residence at Thimbirigasyaya offers urban living in the heart of Colombo 05 with easy access to lifestyle amenities."
+    ],
+    "features": [
+      "Central location within Colombo 05",
+      "Designed to maximize usable floor space"
+    ],
+    "gallery": [
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg",
+      "/Projects/Project3.jpg",
+      "/Projects/Project4.jpg",
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg"
+    ]
+  },
+  {
+    "id": "coral-tower",
+    "name": "Coral Tower",
+    "image": "/CompletedProjects/Completed7.jpg",
+    "address": "34, Galle Rd., Colombo 04",
+    "heroImage": "/CompletedProjects/Completed7.jpg",
+    "mapAddress": "34, Galle Rd., Colombo 04",
+    "lead": [
+      "Coral Tower rises along Galle Road, Colombo 04, giving residents excellent connectivity and a vibrant urban atmosphere."
+    ],
+    "features": [
+      "Prime frontage along Galle Road",
+      "Ideal mix of residential comfort and city access"
+    ],
+    "gallery": [
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg",
+      "/Projects/Project3.jpg",
+      "/Projects/Project4.jpg",
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg"
+    ]
+  },
+  {
+    "id": "coral-court",
+    "name": "Coral Court",
+    "image": "/CompletedProjects/Completed8.jpg",
+    "address": "14, Alfred Pl., Colombo 03",
+    "heroImage": "/CompletedProjects/Completed8.jpg",
+    "mapAddress": "14, Alfred Pl., Colombo 03",
+    "lead": [
+      "Coral Court at Alfred Place is located in one of Colombo’s most desirable areas, combining elegance with city convenience."
+    ],
+    "features": [
+      "Situated in a prestigious Colombo 03 location",
+      "Perfect for professionals and families seeking upscale city living"
+    ],
+    "gallery": [
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg",
+      "/Projects/Project3.jpg",
+      "/Projects/Project4.jpg",
+      "/Projects/Project1.jpg",
+      "/Projects/Project2.jpg"
+    ]
+  }
+]

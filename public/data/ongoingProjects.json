@@ -1,0 +1,80 @@
+[
+  {
+    "id": "coral-city",
+    "name": "Coral City",
+    "subtitle": "Gampaha",
+    "heroImage": "/Projects/Project1.jpg",
+    "mapAddress": "71 Peterson Ln, Colombo 00600",
+    "intro": [
+      "Coral City Gampaha is a modern residential community designed to bring comfort, convenience, and connectivity to families. Nestled in a prime location, it blends contemporary architecture with a serene environment.",
+      "The project offers thoughtfully planned living spaces with easy access to schools, hospitals, and transport hubs. It is built with high-quality materials, ensuring durability and long-term value.",
+      "Residents can enjoy landscaped gardens, recreational spaces, and secure surroundings, making Coral City an ideal choice for both investment and everyday living."
+    ],
+    "features": [
+      "Modern residential community in Gampaha",
+      "Thoughtfully planned layouts for family living",
+      "Easy access to schools, hospitals and transport hubs",
+      "Serene environment with landscaped outdoor spaces",
+      "Built with durable, high-quality construction standards"
+    ]
+  },
+  {
+    "id": "coral-ind",
+    "name": "Coral Ind. Square",
+    "subtitle": "Colombo 7",
+    "heroImage": "/Projects/Project2.jpg",
+    "mapAddress": "217 George R. De Silva Mawatha",
+    "intro": [
+      "Located in the heart of Colombo, Coral Independence Square redefines luxury living. This iconic project combines elegance, sophistication, and exclusivity, offering unmatched city living.",
+      "Designed with premium finishes, spacious interiors, and modern amenities, the property caters to professionals and families who desire an upscale urban lifestyle.",
+      "Its prime location ensures easy access to business hubs, shopping, and entertainment, making Coral Ind. Square both a prestigious address and a smart long-term investment."
+    ],
+    "features": [
+      "Prime residential location in Colombo 07",
+      "Premium finishes and spacious interior layouts",
+      "Modern amenities designed for city professionals",
+      "Close to business hubs, shopping and dining",
+      "Strong potential for long-term capital appreciation"
+    ]
+  },
+  {
+    "id": "dilscoop",
+    "name": "Dilscoop Towers",
+    "subtitle": "Mount Lavinia",
+    "heroImage": "/Projects/Project3.jpg",
+    "mapAddress": "Mount Lavinia Beach, Dehiwala-Mount Lavinia",
+    "intro": [
+      "Dilscoop Towers stands tall in Mount Lavinia, a location known for its vibrant lifestyle and beachside charm. The project offers a mix of modern apartments and commercial spaces.",
+      "Built with a focus on contemporary design, the development includes panoramic views, spacious layouts, and smart infrastructure. Each unit reflects Coral’s promise of quality and innovation.",
+      "Close to schools, supermarkets, and the iconic Mount Lavinia beach, Dilscoop Towers is the perfect blend of urban living and leisure, offering both lifestyle benefits and high investment returns."
+    ],
+    "features": [
+      "Strategic location in vibrant Mount Lavinia",
+      "Panoramic views and contemporary architecture",
+      "Mix of residential and commercial spaces",
+      "Easy access to schools, supermarkets and beach",
+      "Ideal for lifestyle-focused buyers and investors"
+    ]
+  },
+  {
+    "id": "coral-plus",
+    "name": "Coral Plus",
+    "subtitle": "Marine Drive, Colombo 04",
+    "heroImage": "/Projects/Project1.jpg",
+    "mapAddress": "No. 42, Ridgeway Place, Colombo 04",
+    "intro": [
+      "Nestled along Marine Drive at No. 42 Ridgeway Place, Coral Plus offers a luxurious seaside living experience, complete with refreshing morning breezes and magical ocean sunsets. Comprising four custom-designed apartment styles over a 20-story structure, Coral Plus exudes tranquility and grandeur by the Indian Ocean.",
+      "This project seamlessly balances modern design with maximum comfort. Residents enjoy premium amenities—such as an infinity pool with panoramic ocean views, landscaped podiums and rooftop barbeque areas within close reach of Colombo’s key locations. Each unit comes with secure parking, robust construction features, and thoughtful spatial layouts.",
+      "Coral Plus redefines urban sea-front luxury with superior facilities: high-speed lifts, standby power supply, advanced fire safety systems, intercom security, private balconies, designer interiors, and dedicated spaces such as a gym, conference room, and library. It’s comfort and elegance meticulously rolled into your next home or investment."
+    ],
+    "features": [
+      "Infinity Pool overlooking the Indian Ocean",
+      "Landscaped podium and rooftop with barbeque area",
+      "20-story building with a dedicated car park for each unit on 5 levels",
+      "Mahogany doors and pantry cupboards with premium finishes",
+      "High-speed lifts, standby power supply and advanced fire safety systems",
+      "24-hour security with full CCTV coverage and intercom connectivity",
+      "Private balconies for selected rooms with direct sea views"
+    ]
+  }
+]

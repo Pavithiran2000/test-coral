@@ -1,0 +1,168 @@
+# Netlify Configuration for coral-web
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# =============================================================================
+# NEXT.JS ADAPTER (OpenNext)
+# =============================================================================
+# Netlify automatically uses the OpenNext adapter for Next.js 13.5+
+# No explicit plugin required - it's built-in and auto-updated
+
+# =============================================================================
+# IMAGE CDN CONFIGURATION
+# =============================================================================
+# Netlify Image CDN is automatically enabled for next/image components
+# Configure allowed remote image domains here if needed
+
+[images]
+  # Allow remote images from these domains (use regex patterns)
+  # Uncomment and add your remote image sources:
+  # remote_images = ["https:\\/\\/images\\.unsplash\\.com\\/.*", "https:\\/\\/cdn\\.example\\.com\\/.*"]
+
+# =============================================================================
+# CACHING HEADERS
+# =============================================================================
+# Optimize caching for static assets, images, and API responses
+
+# Static assets (JS, CSS) - immutable, long cache
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Public folder images - cache for 1 week with revalidation
+[[headers]]
+  for = "/Gallery/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/Projects/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/logos/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/Background/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/CompletedProjects/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/News/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/Careers/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/Gal/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+[[headers]]
+  for = "/CoralPlus/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"
+
+# Netlify Image CDN transformed images
+[[headers]]
+  for = "/.netlify/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# JSON data files - shorter cache for dynamic content
+[[headers]]
+  for = "/data/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, stale-while-revalidate=86400"
+
+# Fonts - long cache
+[[headers]]
+  for = "*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.woff"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# =============================================================================
+# SECURITY HEADERS (Global)
+# =============================================================================
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# =============================================================================
+# REDIRECTS
+# =============================================================================
+# Add any custom redirects here
+
+# Example: Redirect old URLs to new ones
+# [[redirects]]
+#   from = "/old-path"
+#   to = "/new-path"
+#   status = 301
+
+# =============================================================================
+# REWRITES (Proxy without URL change)
+# =============================================================================
+# Use rewrites to proxy requests without changing the visible URL
+
+# Example: API proxy
+# [[redirects]]
+#   from = "/api/external/*"
+#   to = "https://api.example.com/:splat"
+#   status = 200
+
+# =============================================================================
+# EDGE FUNCTIONS
+# =============================================================================
+# Edge functions run at CDN edge locations for ultra-low latency
+
+# Geo-based routing example (configured via netlify/edge-functions/)
+[[edge_functions]]
+  function = "geo-routing"
+  path = "/edge-geo"
+
+# =============================================================================
+# FUNCTIONS CONFIGURATION
+# =============================================================================
+[functions]
+  # Node.js version for serverless functions
+  node_bundler = "esbuild"
+  
+  # Directory for Netlify Functions (Next.js API routes are auto-handled)
+  # directory = "netlify/functions"
+
+# =============================================================================
+# DEV SERVER
+# =============================================================================
+[dev]
+  command = "npm run dev"
+  port = 3000
+  targetPort = 3000
+  autoLaunch = false
