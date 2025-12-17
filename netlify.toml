@@ -7,6 +7,9 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  # Exclude non-sensitive SMTP configuration from secrets scanning
+  # These are server-side only values (not credentials) like "Coral Property Developers"
+  SECRETS_SCAN_OMIT_KEYS = "SMTP_FROM_NAME,SMTP_HOST"
 
 # =============================================================================
 # NEXT.JS ADAPTER (OpenNext)
