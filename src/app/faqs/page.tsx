@@ -201,19 +201,31 @@ const hasFieldError = (
 async function submitContactForm(
   values: ContactFormValues
 ): Promise<{ success: boolean; message: string }> {
-  const response = await fetch("/api/contact", {
+  // Encode form data for Netlify Forms submission
+  const formData = new FormData();
+  formData.append("form-name", "faq-contact");
+  formData.append("fullName", values.fullName);
+  formData.append("email", values.email);
+  formData.append("subject", values.subject);
+  formData.append("message", values.message);
+
+  const response = await fetch("/__forms.html", {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(values),
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData as unknown as Record<string, string>).toString(),
   });
 
-  const data = await response.json();
-  return {
-    success: data.success,
-    message: data.message,
-  };
+  if (response.ok) {
+    return {
+      success: true,
+      message: "Thank you for your message! We will get back to you soon.",
+    };
+  } else {
+    return {
+      success: false,
+      message: "Failed to send message. Please try again later.",
+    };
+  }
 }
 
 export default function FaqPage() {
@@ -348,6 +360,14 @@ export default function FaqPage() {
             regarding properties, investments, and services
           </ContactLead>
         </div>
+
+        {/* Hidden form for Netlify bot detection */}
+        <form name="faq-contact" data-netlify="true" hidden>
+          <input type="text" name="fullName" />
+          <input type="email" name="email" />
+          <input type="text" name="subject" />
+          <textarea name="message"></textarea>
+        </form>
 
         <ContactForm onSubmit={formik.handleSubmit}>
           <Field>
