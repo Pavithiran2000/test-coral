@@ -1,7 +1,6 @@
-import "server-only";
 /**
  * Email Templates
- *
+ * 
  * HTML and text templates for contact form emails.
  * Includes both notification email to company and auto-reply to customer.
  */
@@ -51,27 +50,19 @@ export function getCompanyNotificationHtml(data: ContactFormData): string {
                 <tr>
                   <td style="padding: 12px 0; border-bottom: 1px solid #eeeeee;">
                     <strong style="color: #0E1B41; display: inline-block; width: 120px;">Name:</strong>
-                    <span style="color: #333333;">${escapeHtml(
-                      data.fullName
-                    )}</span>
+                    <span style="color: #333333;">${escapeHtml(data.fullName)}</span>
                   </td>
                 </tr>
                 <tr>
                   <td style="padding: 12px 0; border-bottom: 1px solid #eeeeee;">
                     <strong style="color: #0E1B41; display: inline-block; width: 120px;">Email:</strong>
-                    <a href="mailto:${escapeHtml(
-                      data.email
-                    )}" style="color: #00A6E2; text-decoration: none;">${escapeHtml(
-    data.email
-  )}</a>
+                    <a href="mailto:${escapeHtml(data.email)}" style="color: #00A6E2; text-decoration: none;">${escapeHtml(data.email)}</a>
                   </td>
                 </tr>
                 <tr>
                   <td style="padding: 12px 0; border-bottom: 1px solid #eeeeee;">
                     <strong style="color: #0E1B41; display: inline-block; width: 120px;">Subject:</strong>
-                    <span style="color: #333333;">${escapeHtml(
-                      data.subject
-                    )}</span>
+                    <span style="color: #333333;">${escapeHtml(data.subject)}</span>
                   </td>
                 </tr>
               </table>
@@ -79,16 +70,12 @@ export function getCompanyNotificationHtml(data: ContactFormData): string {
               <!-- Message -->
               <div style="background-color: #f8f9fa; border-left: 4px solid #00A6E2; padding: 20px; border-radius: 0 8px 8px 0;">
                 <strong style="color: #0E1B41; display: block; margin-bottom: 10px;">Message:</strong>
-                <p style="margin: 0; color: #333333; font-size: 15px; line-height: 1.6; white-space: pre-wrap;">${escapeHtml(
-                  data.message
-                )}</p>
+                <p style="margin: 0; color: #333333; font-size: 15px; line-height: 1.6; white-space: pre-wrap;">${escapeHtml(data.message)}</p>
               </div>
               
               <!-- Reply Button -->
               <div style="text-align: center; margin-top: 30px;">
-                <a href="mailto:${escapeHtml(
-                  data.email
-                )}?subject=Re: ${encodeURIComponent(data.subject)}" 
+                <a href="mailto:${escapeHtml(data.email)}?subject=Re: ${encodeURIComponent(data.subject)}" 
                    style="display: inline-block; background-color: #00A6E2; color: #ffffff; padding: 14px 32px; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 16px;">
                   Reply to ${escapeHtml(data.fullName)}
                 </a>
@@ -277,12 +264,12 @@ This is an automated response. Please do not reply directly to this email.
  */
 function escapeHtml(text: string): string {
   const htmlEntities: Record<string, string> = {
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '"': "&quot;",
-    "'": "&#39;",
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
   };
-
+  
   return text.replace(/[&<>"']/g, (char) => htmlEntities[char] || char);
 }

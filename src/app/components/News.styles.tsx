@@ -303,7 +303,7 @@ export const ReadMoreBtn = styled("button")(({ theme }) => ({
   display: "inline-flex",
   alignItems: "center",
   justifyContent: "center",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   cursor: "pointer",
   width: 150,
   height: 49,

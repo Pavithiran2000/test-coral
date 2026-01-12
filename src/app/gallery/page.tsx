@@ -23,7 +23,6 @@ import {
   ArrowForward,
   GalleryHeroSkeleton,
 } from "../components/Gallery.styles";
-import { BrMobile } from "../components/Home.styles";
 
 export default function GalleryPage() {
   const imagesPlus = [
@@ -102,8 +101,8 @@ export default function GalleryPage() {
 
       <GallerySubText>
         Explore our curated collection of milestone moments live
-        <BrMobile /> events, project unveilings, architectural highlights that define
-        <BrMobile /> Coral’s story.
+        events, project unveilings, architectural highlights that define
+        Coral’s story.
       </GallerySubText>
 
       {/* Launch of Coral Plus */}

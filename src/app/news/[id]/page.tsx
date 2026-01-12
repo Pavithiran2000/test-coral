@@ -46,7 +46,6 @@ import {
   SkeletonRelatedItem,
 } from "@/app/components/Partners.styles";
 
-import { BrDesktop } from "@/app/components/Home.styles";
 import {
   getNewsById,
   getNewsNavigation,
@@ -171,7 +170,7 @@ export default function NewsDetailPage({ params }: NewsDetailPageProps) {
       {news.id === "coral-partners-interior-design-firm" ? (
         <TitleRow>
           Coral Partners with Leading Interior Design
-          <BrDesktop /> Firm to Elevate Luxury Living
+          Firm to Elevate Luxury Living
         </TitleRow>
       ) : (
         <TitleRow>{news.title}</TitleRow>

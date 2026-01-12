@@ -189,7 +189,7 @@ export const KFItem = styled("li")(({ theme }) => ({
   fontSize: 22,
   lineHeight: "30px",
   color: "#595959",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   "&::before": {
     content: '""',
     position: "absolute",

@@ -68,7 +68,6 @@ import {
   SkeletonGalleryCard,
   SkeletonTrackThumb,
 } from "../../../components/Coral.styles";
-import { BrDesktop, BrMobile } from "../../../components/Home.styles";
 import {
   OngoingProject,
   getOngoingProjectById,
@@ -194,7 +193,7 @@ function FloorPlansSection() {
               <div>
                 <FPList>
                   <FPItem>
-                    Single Bedroom with Attached Bathroom &amp; <BrDesktop />
+                    Single Bedroom with Attached Bathroom &amp;
                     Dressing Room
                   </FPItem>
                   <FPItem>Living &amp; Dining Room</FPItem>
@@ -223,17 +222,16 @@ function FloorPlansSection() {
   return (
     <FPWrap>
       <FPTitle>
-        Floor Plans &amp; <BrMobile />
+        Floor Plans &amp;
         Availability
       </FPTitle>
 
       <FPLead>
         Discover thoughtfully designed floor plans tailored for modern
-        <BrMobile /> living. Explore spacious layouts, premium finishes, and
-        flexible <BrMobile />
-        configurations to suit your lifestyle. Check real-time <BrMobile />
+        living. Explore spacious layouts, premium finishes, and
+        flexible
+        configurations to suit your lifestyle. Check real-time
         availability and secure your preferred apartment or villa before{" "}
-        <BrMobile />
         it’s gone. Coral Plus offers limited units in a prime location.
       </FPLead>
 

@@ -110,7 +110,7 @@ export const GallerySubText = styled("p")(({ theme }) => ({
   maxWidth: 1000,
   marginLeft: "auto",
   marginRight: "auto",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
 
   [theme.breakpoints.between("sm", "md")]: {
     fontSize: 16,

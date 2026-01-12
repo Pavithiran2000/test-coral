@@ -12,11 +12,7 @@ import {
   MediaRow,
   LeftImage,
   MediaFrame,
-  MapFrame,
-  MapIframe,
-  MapOverlay,
   HeroImageSkeleton,
-  MapSkeleton,
   ProjectsWrap,
   ProjectsHead,
   ProjectsTitle,
@@ -75,6 +71,7 @@ export default function Page() {
     const timer = setTimeout(() => setIsLoading(false), 1200);
     return () => clearTimeout(timer);
   }, []);
+
 
   const imgs = [
     "/products/Coral1.jpg",
@@ -136,12 +133,11 @@ export default function Page() {
           <HeroTitle>
             Building Dreams, Defining Skylines
           </HeroTitle>
-          <HeroSub>
-            Crafting distinctive living spaces that blend luxury,
-            innovation, and timeless design for modern urban
-            lifestyles
-          </HeroSub>
         </IntroBlock>
+
+        <HeroSub>
+            Crafting distinctive living spaces where luxury, innovation, and timeless design come together for modern urban living.
+        </HeroSub>
 
         <MediaRow>
           <MediaFrame>
@@ -151,46 +147,26 @@ export default function Page() {
               <LeftImage
                 src="/products/AdditionalContentAreaa.jpg"
                 alt="Coral building"
-                width={900}
-                height={460}
+                width={1800}
+                height={981}
                 priority
               />
             )}
           </MediaFrame>
-          <MapFrame>
-            {isLoading ? (
-              <MapSkeleton />
-            ) : (
-              <>
-                <MapIframe
-                  src="https://www.google.com/maps?q=71+Peterson+Ln,+Colombo+00600&output=embed"
-                  loading="lazy"
-                  title="71 Peterson Ln, Colombo 00600"
-                />
-                <MapOverlay />
-              </>
-            )}
-          </MapFrame>
         </MediaRow>
       </HeroWrap>
       
       <AboutWrap>
         <AboutTitle>About Coral Properties</AboutTitle>
         <AboutSub>
-          Established in 2003, Coral Properties has a 14 year history in{" "}
-          the construction field, during which we have completed 8 
-          niche property ventures. We at Coral Properties give
-          our
-          customers the finest living experience filled with opulence. By{" "}
-          creating notonly homes but moments in our apartment{" "}
-          complexes, the moments you hold close to your heart, the ones
-          that matter. We strive to deliver the
-          perfect combination of
-          high standards in strategic locations, giving you the
-          convenience and the lifestyle you’ve always dreamt of.
+          Established in 2003, Coral Property Developers is a trusted name in Sri Lanka’s real estate industry, 
+          delivering high-quality residential apartments in prime locations. We don’t just build homes-we create 
+          thoughtfully designed living spaces that combine modern architecture, premium finishes, and everyday comfort. 
+          With a strong focus on quality and location, each Coral development offers lasting value and a refined 
+          lifestyle for modern urban living.
         </AboutSub>
         <AboutFinePrint>
-          Simply put, we go that extra mile to give you the good life
+          Simply put, we go the extra mile to help you enjoy a better way of living.
         </AboutFinePrint>
 
         <VideoWrap>
@@ -198,7 +174,7 @@ export default function Page() {
             <VideoSkeleton />
           ) : (
             <VideoIframe
-              src="https://www.youtube.com/embed/d_s526ntLYg"
+              src="https://www.youtube.com/embed/vgfSHLZJbHA"
               title="Coral Properties video"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -214,13 +190,12 @@ export default function Page() {
         <ProjectsHead>
           <div>
             <ProjectsTitle>
-              Discover Our Signature Projects
+              Discover Our Signature Developments
             </ProjectsTitle>
             <ProjectsLead>
-              Explore our exclusive developments across Sri Lanka,{" "}
-              where exceptional design, prime locations, and 
-              thoughtful amenities create spaces that inspire, 
-              connect, and elevate everyday living.
+              Explore premium residential developments across Sri Lanka, 
+              thoughtfully designed with modern architecture, prime locations, 
+              and lifestyle-focused amenities.
             </ProjectsLead>
           </div>
           <ProjectsCta 

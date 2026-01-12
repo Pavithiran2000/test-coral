@@ -289,7 +289,7 @@ export const PromiseItem = styled("li")(({ theme }) => ({
   fontSize: 22,
   lineHeight: "30px",
   color: "#595959",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   overflow: "hidden",
   textOverflow: "ellipsis",
   "&::before": {
@@ -834,7 +834,7 @@ export const FPItem = styled("li")(({ theme }) => ({
   fontSize: 22,
   lineHeight: "30px",
   color: "#595959",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   "&::before": {
     content: '""',
     position: "absolute",
