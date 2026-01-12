@@ -182,8 +182,6 @@ export default function Page() {
             />
           )}
         </VideoWrap>
-
-        <AboutCta variant="contained">More About Coral Properties</AboutCta>
       </AboutWrap>
 
       <ProjectsWrap>

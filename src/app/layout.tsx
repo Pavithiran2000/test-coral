@@ -389,10 +389,9 @@ export default function RootLayout({
               </FooterTitle>
 
               <FooterLead>
-                Connect with our team today to explore our projects, discuss
-                your needs, and take
-                the first step towards your dream property
-                investment
+                Connect with our team to explore thoughtfully designed properties, 
+                discuss your needs, and take the first step toward a lifestyle 
+                you’ll be proud to call home.
               </FooterLead>
 
               <FooterCallBtn variant="contained">Call Us Now</FooterCallBtn>
