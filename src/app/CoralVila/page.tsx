@@ -19,7 +19,6 @@ import {
   MapCaption,
   MapCapIcon, MapOverlay, CGalleryWrap, CScroller, CCard, CCardImg, CGalleryTrack, CGalleryThumb
 } from "../components/CoralVila.styles";
-import { BrDesktop, BrMobile } from "../components/Home.styles";
 
 export default function CoralVilaPage() {
   const scrollerRef = useRef<HTMLDivElement>(null);
@@ -84,12 +83,12 @@ export default function CoralVilaPage() {
           <KFList>
             <KFItem>Optimal balance in lighting, ventilation and privacy</KFItem>
             <KFItem>Top quality materials and luxury finishes</KFItem>
-            <KFItem>Standby generators for common areas lighting, elevators, water <BrMobile />and fire pumps</KFItem>
-            <KFItem>Individual communication facility from apartments to <BrMobile />reception office and <BrDesktop />among apartments and intercom facility</KFItem>
+            <KFItem>Standby generators for common areas lighting, elevators, water and fire pumps</KFItem>
+            <KFItem>Individual communication facility from apartments to reception office and among apartments and intercom facility</KFItem>
             <KFItem>Ample parking facility with all safety protocols</KFItem>
-            <KFItem>Bathrooms, roof top balconies, yards and external walls are fully <BrMobile />water proof</KFItem>
+            <KFItem>Bathrooms, roof top balconies, yards and external walls are fully water proof</KFItem>
             <KFItem>High speed elevator up to roof top</KFItem>
-            <KFItem>Modern fire protection designed in conformity with municipal <BrMobile />regulations</KFItem>
+            <KFItem>Modern fire protection designed in conformity with municipal regulations</KFItem>
             <KFItem>Lightening arrester mechanism</KFItem>
             <KFItem>24 hours security service</KFItem>
             <KFItem>Exhilarating sea view point at roof top</KFItem>

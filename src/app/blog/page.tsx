@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { BrMobile, BrDesktop } from "../components/Home.styles";
 import {
   BlogsWrap,
   BlogsTitle,
@@ -66,10 +65,9 @@ export default function BlogPage() {
       </BlogHeroFrame>
 
       <BlogsIntro>
-        Stay informed with the latest real estate news, expert<BrMobile />{" "}
-        investment tips, project updates, and market trends.<BrMobile />{" "}
-        <BrDesktop />
-        Explore our blogs to gain valuable insights and make smarter<BrMobile />{" "}
+        Stay informed with the latest real estate news, expert{" "}
+        investment tips, project updates, and market trends.{" "}
+        Explore our blogs to gain valuable insights and make smarter{" "}
         property decisions.
       </BlogsIntro>
 

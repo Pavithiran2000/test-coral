@@ -37,8 +37,6 @@ import {
   TagText,
 } from "@/app/components/Careers.styles";
 
-import { BrMobile } from "../components/Home.styles";
-
 function IconStar() {
   return (
     <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
@@ -160,9 +158,7 @@ export default function CareersPage() {
             <JobDesc>
               We are looking for an experienced Project Manager to lead and
               execute
-              <BrMobile />
               residential and commercial developments with precision and{" "}
-              <BrMobile />
               excellence
             </JobDesc>
 
@@ -212,9 +208,7 @@ export default function CareersPage() {
             <JobTitle>Marketing Executive</JobTitle>
             <JobDesc>
               We are looking for an experienced Project Manager to lead and{" "}
-              <BrMobile />
               execute residential and commercial developments with precision and{" "}
-              <BrMobile />
               excellence
             </JobDesc>
 

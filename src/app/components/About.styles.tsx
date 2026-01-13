@@ -303,7 +303,7 @@ export const AboutPara = styled("p")(({ theme }) => ({
     fontSize: 20,
     lineHeight: "30px",
     color: "#595959",
-    whiteSpace: "nowrap",
+    whiteSpace: "normal",
   },
 }));
 
@@ -1035,7 +1035,7 @@ export const VChairmanTitle = styled("div")(({ theme }) => ({
   fontSize: 24,
   lineHeight: "29px",
   color: "#0E1B41",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
 
   [theme.breakpoints.down("sm")]: {
     fontSize: 14,
@@ -1160,7 +1160,7 @@ export const VPerson = styled("div")(({ theme }) => ({
   fontSize: 28,
   lineHeight: "34px",
   color: "rgba(89,89,89,0.60)",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   overflow: "hidden",
   textOverflow: "ellipsis",
 
@@ -1182,7 +1182,7 @@ export const VRole = styled("div")(({ theme }) => ({
   fontSize: 24,
   lineHeight: "29px",
   color: "rgba(89,89,89,0.60)",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
 
   [theme.breakpoints.down("sm")]: {
     flex: "0 0 145px",

@@ -255,7 +255,7 @@ export const AccTitle = styled("span", {
   fontSize: 20,
   lineHeight: "100%",
   color: $open ? "#FFFFFF" : "#0E1B41",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   overflow: "hidden",
   textOverflow: "ellipsis",
   display: "block",
@@ -553,7 +553,7 @@ export const SubmitBtn = styled("button")(({ theme }) => ({
   letterSpacing: "0.02em",
   textTransform: "capitalize",
   color: "#FFFFFF",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
 
   [theme.breakpoints.down("md")]: {
     minWidth: 150,

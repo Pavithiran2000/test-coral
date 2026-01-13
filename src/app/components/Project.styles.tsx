@@ -326,7 +326,7 @@ export const PButton = styled("a")(({ theme }) => ({
   lineHeight: "13px",
   letterSpacing: "0.02em",
   textDecoration: "none",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   border: "1px solid #FFFFFF",
   [theme.breakpoints.between("sm", "md")]: {
     justifySelf: "center",
@@ -792,7 +792,7 @@ export const FeatureDesc = styled("p")(({ theme }) => ({
   marginLeft: -1,
   lineHeight: "26px",
   color: "#595959",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   [theme.breakpoints.between("sm", "md")]: {
     fontSize: 16,
     lineHeight: "22px",

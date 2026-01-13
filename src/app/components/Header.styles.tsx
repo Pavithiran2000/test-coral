@@ -185,7 +185,7 @@ export const ProjectsDropdownItem = styled(Link)({
   fontSize: 16,
   color: NAVY,
   textDecoration: "none",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   "&:hover": {
     backgroundColor: "rgba(0, 99, 184, 0.06)",
   },
@@ -212,45 +212,53 @@ export const RightWrap = styled("div")(({ theme }) => ({
 }));
 
 export const CtaButton = styled(Button)<ButtonProps>(({ theme }) => ({
-  width: 153,
+  minWidth: 150,
   height: 49,
   marginLeft: 0,
   borderRadius: 12,
-  padding: "18px 30px",
+  padding: "0 30px",
   textTransform: "none",
   fontFamily: "Crimson Pro, sans-serif",
   fontSize: 20,
   fontWeight: 500,
-  lineHeight: "13px",
+  lineHeight: "1.2",
   letterSpacing: "0.02em",
   whiteSpace: "nowrap",
   color: "#FFFFFF",
   background: "linear-gradient(90deg, #0064B5 0%, #00A9DF 100%)",
   boxShadow: "0 1px 2px rgba(0,0,0,0.20)",
-
   boxSizing: "border-box",
+
+  "& .MuiButton-label, & .MuiButton-startIcon, & .MuiButton-endIcon": {
+    whiteSpace: "nowrap",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    display: "inline-block",
+  },
 
   "&:hover": {
     background: "linear-gradient(90deg, #0064B5 0%, #00A9DF 100%)",
     borderColor: "#FFFFFF",
-      border: "2px solid #FFFFFF",
+    border: "2px solid #FFFFFF",
+    whiteSpace: "nowrap",
   },
 
   "&:focus-visible": {
     outline: "none",
+    whiteSpace: "nowrap",
   },
 
   [theme.breakpoints.down("md")]: {
-    width: 130,
+    minWidth: 130,
     height: 40,
-    padding: 0,
+    padding: "0 18px",
     fontSize: 14,
     borderRadius: 10,
   },
   [theme.breakpoints.down("sm")]: {
-    width: 100,
+    minWidth: 100,
     height: 36,
-    padding: 0,
+    padding: "0 10px",
     fontSize: 14,
     borderRadius: 10,
   },

@@ -92,7 +92,7 @@ export const CompletedDesc = styled("p")(({ theme }) => ({
   marginLeft: -12,
   lineHeight: "30px",
   color: "#595959",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   [theme.breakpoints.down("sm")]: {
     fontSize: 14,
     lineHeight: "22px",
@@ -222,7 +222,7 @@ export const Name = styled("div")(({ theme }) => ({
   fontSize: 32,
   lineHeight: "100%",
   color: "#00A6E2",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   overflow: "hidden",
   textOverflow: "ellipsis",
   [theme.breakpoints.between("sm", "md")]: {
@@ -248,7 +248,7 @@ export const Addr = styled("div")(({ theme }) => ({
   marginTop: 20,
   lineHeight: "20px",
   color: "#0E1B41",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   overflow: "hidden",
   textOverflow: "ellipsis",
   [theme.breakpoints.between("sm", "md")]: {
@@ -420,7 +420,7 @@ export const FeatureDesc = styled("p")(({ theme }) => ({
   fontSize: 18,
   lineHeight: "26px",
   color: "#595959",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   [theme.breakpoints.between("sm", "md")]: {
     fontSize: 12,
     lineHeight: "16px",

@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { BrDesktop, BrMobile } from "../components/Home.styles";
 import {
   ProjectsHeroWrap,
   ProjectsHeroTitle,
@@ -113,14 +112,11 @@ export default function ProjectsPage() {
 
         <ProjectsHeroDesc>
           We are redefining modern living through visionary real estate
-          <BrMobile />
-          developments. Our ongoing projects reflect a commitment to <BrMobile />
-          luxury, functionality, and <BrDesktop />
-          sustainability crafted for families, <BrMobile />
-          investors, and businesses alike. Each development is <BrMobile />
+          developments. Our ongoing projects reflect a commitment to
+          luxury, functionality, and
+          sustainability crafted for families,
+          investors, and businesses alike. Each development is
           strategically located, designed with precision, and built to
-          <BrDesktop />
-          <BrMobile />
           enhance lifestyles while securing long-term value.
         </ProjectsHeroDesc>
 
@@ -184,25 +180,25 @@ export default function ProjectsPage() {
               <>
                 <PMiddleText>
                   Coral City Gampaha is a modern residential community designed
-                  to <BrMobile />
+                  to
                   bring comfort, convenience, and connectivity to families.
-                  Nestled in a <BrMobile />
+                  Nestled in a
                   prime location, it blends contemporary architecture with a
-                  serene <BrMobile />
+                  serene
                   environment.
                 </PMiddleText>
                 <PMiddleText>
                   The project offers thoughtfully planned living spaces with
-                  easy access to <BrMobile />
+                  easy access to
                   schools, hospitals, and transport hubs. It is built with
-                  high-quality <BrMobile />
+                  high-quality
                   materials, ensuring durability and long-term value.
                 </PMiddleText>
                 <PMiddleText>
                   Residents can enjoy landscaped gardens, recreational spaces,
-                  and secure <BrMobile />
+                  and secure
                   surroundings, making Coral City an ideal choice for both
-                  investment and <BrMobile /> living.
+                  investment and living.
                 </PMiddleText>
               </>
             )}
@@ -376,7 +372,7 @@ export default function ProjectsPage() {
           <AdvantageTitle>The Coral Advantage</AdvantageTitle>
           <AdvantageLead>
             Every project is more than just a buildingit’s a carefully designed
-            investment opportunity. With decades of trust,<BrDesktop /> unmatched
+            investment opportunity. With decades of trust, unmatched
             expertise, and a vision for tomorrow, we ensure that your investment
             grows in both value and lifestyle impact.
           </AdvantageLead>
@@ -385,9 +381,8 @@ export default function ProjectsPage() {
             <FeatureCard>
               <FeatureTitle>Prime Locations</FeatureTitle>
               <FeatureDesc>
-                Strategically placed in high-demand <BrDesktop />
+                Strategically placed in high-demand
                 areas, offering excellent accessibility
-                <BrDesktop />
                 and long-term appreciation.
               </FeatureDesc>
             </FeatureCard>
@@ -395,8 +390,8 @@ export default function ProjectsPage() {
             <FeatureCard>
               <FeatureTitle>Sustainable Value</FeatureTitle>
               <FeatureDesc>
-                Built with modern construction <BrDesktop />
-                standards and energy-efficient designs <BrDesktop />
+                Built with modern construction
+                standards and energy-efficient designs
                 to ensure lasting worth.
               </FeatureDesc>
             </FeatureCard>
@@ -404,9 +399,8 @@ export default function ProjectsPage() {
             <FeatureCard>
               <FeatureTitle>Trusted Expertise</FeatureTitle>
               <FeatureDesc>
-                Backed by Coral’s proven track record <BrDesktop />
+                Backed by Coral’s proven track record
                 in delivering projects on time with
-                <BrDesktop />
                 uncompromised quality.
               </FeatureDesc>
             </FeatureCard>
@@ -414,8 +408,8 @@ export default function ProjectsPage() {
             <FeatureCard>
               <FeatureTitle>Lifestyle &amp; Community</FeatureTitle>
               <FeatureDesc>
-                Developments that balance luxury <BrDesktop />
-                living with community spaces, making <BrDesktop />
+                Developments that balance luxury
+                living with community spaces, making
                 them ideal for families &amp; professionals.
               </FeatureDesc>
             </FeatureCard>

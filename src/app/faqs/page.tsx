@@ -382,6 +382,15 @@ export default function FaqPage() {
           </ContactLead>
         </div>
 
+        {/* Hidden form for Netlify bot detection */}
+        <form name="faq-contact" data-netlify="true" hidden>
+          <input type="hidden" name="form-name" value="faq-contact" />
+          <input type="text" name="fullName" />
+          <input type="email" name="email" />
+          <input type="text" name="subject" />
+          <textarea name="message"></textarea>
+        </form>
+
         <ContactForm onSubmit={formik.handleSubmit}>
           <Field>
             <Label htmlFor="fullName">Full Name</Label>

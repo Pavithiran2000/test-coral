@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import { BrMobile } from "../components/Home.styles";
 import {
   NewsWrap,
   NewsTitle,
@@ -70,8 +69,8 @@ export default function NewsPage() {
       </NewsHeroFrame>
 
       <NewsIntro>
-        Stay updated with the latest real estate developments, <BrMobile />
-        industry trends, and company announcements. <BrMobile />
+        Stay updated with the latest real estate developments,
+        industry trends, and company announcements.
         Explore the most recent updates to stay informed and make better
         property investment decisions.
       </NewsIntro>
@@ -126,12 +125,12 @@ export default function NewsPage() {
 
       <NewsletterWrap>
         <NewsletterTitle>
-          Stay Connected <BrMobile />
+          Stay Connected
           With Us
         </NewsletterTitle>
         <NewsletterDesc>
-          Get instant updates on the latest property news, market <BrMobile />
-          trends, and company announcements delivered directly to <BrMobile />
+          Get instant updates on the latest property news, market
+          trends, and company announcements delivered directly to
           your inbox.
         </NewsletterDesc>
         <NewsletterForm>
