@@ -210,28 +210,38 @@ async function submitContactForm(
     formData.append("subject", values.subject);
     formData.append("message", values.message);
 
+    const urlParams = new URLSearchParams(formData as unknown as Record<string, string>);
+    const pathname = window.location.pathname;
+    
+    console.log("📧 Submitting form to:", pathname);
+    console.log("📊 Form data:", Object.fromEntries(urlParams));
+
     // Post to the current page - Netlify will intercept and handle it
-    const response = await fetch(window.location.pathname, {
+    const response = await fetch(pathname, {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData as unknown as Record<string, string>).toString(),
+      body: urlParams.toString(),
     });
+
+    console.log("✅ Response status:", response.status);
 
     if (response.ok || response.status === 404) {
       // Note: Netlify Forms returns 404 after successful submission
       // This is expected behavior
+      console.log("✅ Form submitted successfully");
       return {
         success: true,
         message: "Thank you for your message! We will get back to you soon.",
       };
     } else {
+      console.warn("⚠️ Unexpected response status:", response.status);
       return {
         success: false,
         message: "Failed to send message. Please try again later.",
       };
     }
   } catch (error) {
-    console.error("Form submission error:", error);
+    console.error("❌ Form submission error:", error);
     return {
       success: false,
       message: "Network error. Please check your connection and try again.",
@@ -374,6 +384,7 @@ export default function FaqPage() {
 
         {/* Hidden form for Netlify bot detection */}
         <form name="faq-contact" data-netlify="true" hidden>
+          <input type="hidden" name="form-name" value="faq-contact" />
           <input type="text" name="fullName" />
           <input type="email" name="email" />
           <input type="text" name="subject" />

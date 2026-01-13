@@ -21,6 +21,9 @@
 # Configure notifications in the Netlify UI: Site Settings > Forms > Form notifications
 # To receive email notifications: Site Settings > Forms > Form notifications > Add notification
 
+# Form detection file: public/forms.html
+# Forms configured: "contact", "faq-contact"
+
 # =============================================================================
 # NEXT.JS ADAPTER (OpenNext)
 # =============================================================================
@@ -132,13 +135,19 @@
 # =============================================================================
 # REDIRECTS
 # =============================================================================
-# Add any custom redirects here
+# Form submission handling - redirect POST requests to notify Netlify
+[[redirects]]
+  from = "/ContactUs"
+  to = "/ContactUs"
+  status = 200
+  force = false
 
-# Example: Redirect old URLs to new ones
-# [[redirects]]
-#   from = "/old-path"
-#   to = "/new-path"
-#   status = 301
+[[redirects]]
+  from = "/faqs"
+  to = "/faqs"
+  status = 200
+  force = false
+
 
 # =============================================================================
 # REWRITES (Proxy without URL change)
