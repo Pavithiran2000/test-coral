@@ -48,7 +48,6 @@ import {
   PGalleryThumb,
   MapPlusOverlay,
 } from "../components/Coral.styles";
-import { BrDesktop, BrMobile } from "../components/Home.styles";
 
 function FloorPlansSection() {
   type UnitIndex = 0 | 1 | 2 | 3;
@@ -170,7 +169,7 @@ function FloorPlansSection() {
               <div>
                 <FPList>
                   <FPItem>
-                    Single Bedroom with Attached Bathroom &amp; <BrDesktop /> Dressing Room
+                    Single Bedroom with Attached Bathroom &amp; Dressing Room
                   </FPItem>
                   <FPItem>Living &amp; Dining Room</FPItem>
                   <FPItem>Kitchen with Pantry</FPItem>
@@ -198,17 +197,16 @@ function FloorPlansSection() {
   return (
     <FPWrap>
       <FPTitle>
-        Floor Plans &amp; <BrMobile />
+        Floor Plans &amp;
         Availability
       </FPTitle>
 
       <FPLead>
         Discover thoughtfully designed floor plans tailored for modern
-        <BrMobile /> living. Explore spacious layouts, premium finishes, and
-        flexible <BrMobile />
-        configurations to suit your lifestyle. Check real-time <BrMobile />
+        living. Explore spacious layouts, premium finishes, and
+        flexible
+        configurations to suit your lifestyle. Check real-time
         availability and secure your preferred apartment or villa before{" "}
-        <BrMobile />
         it’s gone. Coral Plus offers limited units in a prime location.
       </FPLead>
 
@@ -357,8 +355,7 @@ export default function CoralPlusSection() {
               </PromiseItem>
               <PromiseItem>
                 Master Bedroom with air conditioner (LG or equivalent) /{" "}
-                <BrMobile />
-                provision for A/C in <BrDesktop />
+                provision for A/C in
                 living and other rooms
               </PromiseItem>
               <PromiseItem>24-hour security with full CCTV coverage</PromiseItem>
@@ -375,7 +372,6 @@ export default function CoralPlusSection() {
               <PromiseItem>Designated conference room and library</PromiseItem>
               <PromiseItem>
                 Soft &amp; wall-mounted energy saving LED lighting in common{" "}
-                <BrMobile />
                 areas
               </PromiseItem>
               <PromiseItem>State-of-the-art gym</PromiseItem>
@@ -390,8 +386,7 @@ export default function CoralPlusSection() {
               </PromiseItem>
               <PromiseItem>
                 Hot water in main bathroom + provision for other bathrooms{" "}
-                <BrMobile />
-                (Ariston or <BrDesktop />
+                (Ariston or
                 equivalent geyser)
               </PromiseItem>
             </PromiseList>

@@ -63,7 +63,6 @@ import {
 import { FbGlyph, InGlyph } from "./components/PlainSocialIcons";
 import XIcon from "@mui/icons-material/X";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { BrMedium, BrMobile } from "./components/Home.styles";
 
 export default function RootLayout({
   children,
@@ -386,14 +385,13 @@ export default function RootLayout({
             <FooterBG>
               <FooterTitle>
                 Let’s Build Your
-                <BrMobile /> Future Together
+                Future Together
               </FooterTitle>
 
               <FooterLead>
-                Connect with our team today to explore our projects, discuss
-                your needs, and take
-                <BrMedium /> the first step towards your dream property
-                investment
+                Connect with our team to explore thoughtfully designed properties, 
+                discuss your needs, and take the first step toward a lifestyle 
+                you’ll be proud to call home.
               </FooterLead>
 
               <FooterCallBtn variant="contained">Call Us Now</FooterCallBtn>
@@ -403,7 +401,6 @@ export default function RootLayout({
                 <FooterAboutText>
                   Coral Properties has been redefining Sri Lanka’s real estate
                   landscape since 2003, delivering
-                  <BrMedium />
                   high-quality developments that inspire modern living while
                   fostering thriving communities.
                 </FooterAboutText>
@@ -415,9 +412,9 @@ export default function RootLayout({
                   <SocialChip aria-label="li" href="#">
                     <InGlyph />
                   </SocialChip>
-                  <SocialChip aria-label="X" href="#">
+                  {/* <SocialChip aria-label="X" href="#">
                     <XIcon fontSize="inherit" />
-                  </SocialChip>
+                  </SocialChip> */}
                   <SocialChip aria-label="Instagram" href="#">
                     <InstagramIcon fontSize="inherit" />
                   </SocialChip>
@@ -450,7 +447,7 @@ export default function RootLayout({
               </FooterInfoGrid>
 
               <FooterCopy>
-                Copyright &copy; 2025 Coral Properties. <BrMobile />
+                Copyright &copy; 2026 Coral Properties.
                 All rights reserved | Design &amp; Developed by Techorin
               </FooterCopy>
             </FooterBG>

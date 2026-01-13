@@ -667,7 +667,7 @@ export const TagText = styled("span")<{ $strong?: boolean }>(
     },
     [theme.breakpoints.down("sm")]: {
       fontSize: 12,
-      whiteSpace: "nowrap", 
+      whiteSpace: "normal", 
     },
   })
 );
@@ -776,7 +776,7 @@ export const UploadTextTop = styled("div")(({ theme }) => ({
   fontSize: 18,
   color: "#00A6E2",
   lineHeight: "100%",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   [theme.breakpoints.down("md")]: {
     fontSize: 16,
     whiteSpace: "normal",
@@ -804,7 +804,7 @@ export const UploadTextSub = styled("div")(({ theme }) => ({
   fontSize: 12,
   lineHeight: "100%",
   color: "#6D6D6D",
-  whiteSpace: "nowrap",
+  whiteSpace: "normal",
   marginTop: 10,
   [theme.breakpoints.down("md")]: {
     fontSize: 11,

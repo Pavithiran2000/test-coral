@@ -513,14 +513,14 @@ export const InfoLine = styled("div")(({ theme }) => ({
     marginTop: 6,
     fontSize: 14,
     lineHeight: "100%",
-    whiteSpace: "nowrap",
+    whiteSpace: "normal",
   },
   [theme.breakpoints.down("sm")]: {
     width: 100,
     marginTop: 6,
     fontSize: 14,
     lineHeight: "100%",
-    whiteSpace: "nowrap",
+    whiteSpace: "normal",
     color: "#F3F4F6",
   },
 }));

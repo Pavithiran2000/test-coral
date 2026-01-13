@@ -21,7 +21,6 @@ import {
   SkeletonBox,
   SkeletonImage,
 } from "../../components/Completed.styles";
-import { BrDesktop, BrMobile } from "../../components/Home.styles";
 import {
   AdvantageWrap,
   AdvantageTitle,
@@ -76,13 +75,10 @@ export default function CompletedProjectsPage() {
 
       <CompletedDesc>
         Founded in 2003, Coral Properties has successfully delivered 8{" "}
-        <BrMobile />
         niche developments, each crafted to offer refined living{" "}
-        <BrMobile />
-        experiences filled with comfort <BrDesktop />
-        and elegance. Here, you’ll find <BrMobile />
+        experiences filled with comfort
+        and elegance. Here, you’ll find
         our portfolio of completed projects, each home designed to{" "}
-        <BrMobile />
         create lasting memories.
       </CompletedDesc>
 
@@ -139,7 +135,7 @@ export default function CompletedProjectsPage() {
         <AdvantageLead>
           Every project is more than just a building—it’s a carefully designed
           investment opportunity. With decades of trust,
-          <BrDesktop /> unmatched expertise, and a vision for tomorrow, we
+          unmatched expertise, and a vision for tomorrow, we
           ensure that your investment grows in both value and lifestyle impact.
         </AdvantageLead>
 
@@ -147,9 +143,8 @@ export default function CompletedProjectsPage() {
           <FeatureCard>
             <FeatureTitle>Prime Locations</FeatureTitle>
             <FeatureDesc>
-              Strategically placed in high-demand <BrDesktop />
+              Strategically placed in high-demand
               areas, offering excellent accessibility
-              <BrDesktop />
               and long-term appreciation.
             </FeatureDesc>
           </FeatureCard>
@@ -157,8 +152,8 @@ export default function CompletedProjectsPage() {
           <FeatureCard>
             <FeatureTitle>Sustainable Value</FeatureTitle>
             <FeatureDesc>
-              Built with modern construction <BrDesktop />
-              standards and energy-efficient designs <BrDesktop />
+              Built with modern construction
+              standards and energy-efficient designs
               to ensure lasting worth.
             </FeatureDesc>
           </FeatureCard>
@@ -166,9 +161,8 @@ export default function CompletedProjectsPage() {
           <FeatureCard>
             <FeatureTitle>Trusted Expertise</FeatureTitle>
             <FeatureDesc>
-              Backed by Coral’s proven track record <BrDesktop />
+              Backed by Coral’s proven track record
               in delivering projects on time with
-              <BrDesktop />
               uncompromised quality.
             </FeatureDesc>
           </FeatureCard>
@@ -176,8 +170,8 @@ export default function CompletedProjectsPage() {
           <FeatureCard>
             <FeatureTitle>Lifestyle &amp; Community</FeatureTitle>
             <FeatureDesc>
-              Developments that balance luxury <BrDesktop />
-              living with community spaces, making <BrDesktop />
+              Developments that balance luxury
+              living with community spaces, making
               them ideal for families &amp; professionals.
             </FeatureDesc>
           </FeatureCard>

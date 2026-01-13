@@ -56,7 +56,6 @@ import {
   MobileTeamList,
   VListRow,
 } from "../components/About.styles";
-import { BrDesktop } from "../components/Home.styles";
 
 type LeaderId = "pirabaharan" | "vasiharan" | "nirogini" | "srikaran";
 type ActiveLeaderId = LeaderId;
@@ -189,27 +188,27 @@ export default function AboutPage() {
           <AboutBodyParas>
             <AboutPara>
               Welcome to the Coral life, a lifestyle that allows you to be surrounded in convenience. With a
-              diverse portfolio in Sri Lanka and overseas that includes <BrDesktop />Coral Water, Coral
+              diverse portfolio in Sri Lanka and overseas that includes Coral Water, Coral
               Maintenance, Coral Service Apartments and Miracle of Asia, an online tourism search engine, Coral
-              Life brings you Coral Properties, <BrDesktop />an internationally owned niche property development
+              Life brings you Coral Properties, an internationally owned niche property development
               company based in Colombo, that has grown locally and moved in to international markets.
             </AboutPara>
 
             <AboutPara>
               With 8 completed projects and 300 satisfied customers both locally and internationally, the company
-              that has proven it goes beyond to provide its own <BrDesktop />brand of understated elegance and
+              that has proven it goes beyond to provide its own brand of understated elegance and
               premium apartments in strategic locations, which your family deserves.
             </AboutPara>
 
             <AboutPara>
               Established way back in 2003, Coral has over a decade’s history in the construction field, with
-              over 300 satisfied customers during which the company <BrDesktop />completed a multitude of niche,
+              over 300 satisfied customers during which the company completed a multitude of niche,
               strategic property ventures which provides convenience to the upwardly mobile homemaker.
             </AboutPara>
 
             <AboutPara>
               With a successful portfolio of completed projects, a array of innovative projects under
-              construction and the plan to build their own range of signature <BrDesktop />apartment complexes,
+              construction and the plan to build their own range of signature apartment complexes,
               these properties strive to change the way families live, laugh, love and play whilst their
               children grow up to peruse their dreams.
             </AboutPara>
