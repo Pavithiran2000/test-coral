@@ -211,13 +211,13 @@ async function submitContactForm(
     formData.append("message", values.message);
 
     const urlParams = new URLSearchParams(formData as unknown as Record<string, string>);
-    const pathname = window.location.pathname;
     
-    console.log("📧 Submitting form to:", pathname);
+    console.log("📧 Submitting form to: /forms.html");
     console.log("📊 Form data:", Object.fromEntries(urlParams));
 
-    // Post to the current page - Netlify will intercept and handle it
-    const response = await fetch(pathname, {
+    // Post to static HTML file - required for Next.js Runtime v5
+    // Netlify Forms cannot process submissions to SSR/dynamic pages
+    const response = await fetch("/forms.html", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: urlParams.toString(),
